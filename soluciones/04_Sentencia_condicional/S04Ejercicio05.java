@@ -15,11 +15,13 @@ public class S04Ejercicio05 {
     Double a = Double.parseDouble(System.console().readLine());
     System.out.print("Ahora introduzca el valor de b: ");
     Double b = Double.parseDouble(System.console().readLine());
+        System.out.print("Ahora introduzca el valor de c: ");
+    Double c = Double.parseDouble(System.console().readLine());
 
     if (a == 0) {
       System.out.println("Esa ecuación no tiene solución real.");
     } else {
-      System.out.println("x = " + (-b/a));
+      System.out.println("x = " + (c-b/a));
     }
   }
 }
